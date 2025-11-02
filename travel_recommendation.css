@@ -28,7 +28,7 @@ nav{
     align-items: center;
     font-family: "Lobster", serif;
     width: 100%;
-    min-height:50px;
+    min-height:8vh;
 }
 
 nav ul{
@@ -87,8 +87,10 @@ nav ul.search_section input[type=text]{
 
 main{
     background: url('./city.png') no-repeat;
+    background-position: center;
+    background-size: auto;
     min-width: 100vw;
-    min-height:100vh;
+    min-height:92vh;
 }
 
 
