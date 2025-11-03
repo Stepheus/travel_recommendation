@@ -89,8 +89,20 @@ main{
     background: url('./city.png') no-repeat;
     background-position: center;
     background-size: auto;
-    min-width: 100vw;
+    width: 100%;
     min-height:92vh;
+}
+
+div#social_section{
+    width:20%;
+    min-height: 92vh;
+    background-color: purple;
+    display: inline-block;
+}
+
+div#home_message_section{
+    width:80%;
+    background-color: blue;
 }
 
 
