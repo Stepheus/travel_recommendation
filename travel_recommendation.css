@@ -65,6 +65,7 @@ nav ul.search_section i{
     color: black;
     background-color: transparent;
     vertical-align: bottom;
+    transform: translateY(10%);
 }
 
 nav ul.search_section button{
@@ -74,7 +75,7 @@ nav ul.search_section button{
     padding: 3px 4px 3px 4px;
     border-radius: 5px;
     box-shadow: none;
-    margin-right: 1px;
+    margin-right: 2px;
 }
 
 nav ul.search_section input[type=text]{
@@ -83,6 +84,7 @@ nav ul.search_section input[type=text]{
     width: 320px;
     height:38px;
     padding: 3px;
+    margin-right: 2px;
 }
 
 main{
@@ -93,16 +95,60 @@ main{
     min-height:92vh;
 }
 
-div#social_section{
-    width:20%;
-    min-height: 92vh;
-    background-color: purple;
+main div#social_section{
+    width:14%;
+    height: 100%;
+    min-height: 100vh;
+    display: inline-block;;
+    /* background-color: rgba(255, 255, 255, 0.3); */
+    position: relative;
+}
+
+main div#line_box{
     display: inline-block;
+    width:100%;
+    height:44%;
+    /* background-color: rgba(111, 63, 245, 0.3); */
+    position: absolute;
+    top: 0px;
 }
 
-div#home_message_section{
+main div#line_div{
+    width: 2px;
+    height: 80%;
+    border-left: solid 2px white;
+    position: absolute;
+    left: 16%;
+    bottom: 10%;
+
+
+}
+
+main div#social_box{
+    width: 100%;
+    height:56%;
+    position: absolute;
+    bottom: 0px;
+    /* background-color: rgba(210, 238, 130, 1); */
+}
+
+main div#home_message_section{
     width:80%;
-    background-color: blue;
+    float: right;
 }
 
+main ul.social_media_list{
 
+    min-height: 37%;
+    margin-left:14px;
+    list-style-type: none;
+    position: absolute;
+    top: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+}
+
+main ul.social_media_list svg{
+    fill: white;
+}
