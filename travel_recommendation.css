@@ -98,7 +98,7 @@ main{
 main div#social_section{
     width:14%;
     height: 100%;
-    min-height: 100vh;
+    min-height: 92vh;
     /* display: inline-block;; */
     /* background-color: rgba(255, 255, 255, 0.3); */
     float: left;
@@ -135,11 +135,11 @@ main div#social_box{
 
 main ul.social_media_list{
 
-    min-height: 40%;
+    min-height: 48%;
     margin-left:16px;
     list-style-type: none;
     position: absolute;
-    top: 25%;
+    top: 20%;
     display: flex;
     flex-direction: column;
     justify-content:space-around;
@@ -151,7 +151,15 @@ main ul.social_media_list svg{
 
 main div#home_message_section{
     width:80%;
+    height:92vh;
     float: left;
+}
+
+main article.home_msg_article{
+    position: relative;
+    top:24%;
+    color: white;
+    overflow: hidden;
 }
 
 section.home_msg_big, section.home_msg_small, section.home_msg_button_box{
@@ -159,8 +167,38 @@ section.home_msg_big, section.home_msg_small, section.home_msg_button_box{
 }
 
 
+section.home_msg_big{
+    font-size: large;
+    margin-bottom: 13px;
+}
+
+section.home_msg_small{
+    width: 200px;
+    height: 120px;
+    font-family: "Oxygen", sans-serif;
+    font-size: small;
+    margin-top: 18px;
+    margin-bottom: 15px;
+}
+
 section.home_msg_big h1{
-    color: white;
     font-family: "Stack Sans Text", sans-serif;
 }
+
+button#home_msg_button{
+    background-color:#2177C2;
+    color: white;
+    text-align: center;
+    padding: 5px 8px 5px 8px;
+    border: none;
+    border-radius: 5px;
+    transition: transform 0.2s ease-in;
+}
+
+button#home_msg_button:hover{
+    transform: scale(0.9);
+    cursor:pointer;
+}
+
+
 
