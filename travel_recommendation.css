@@ -93,6 +93,11 @@ main{
     background-size: auto;
     width: 100%;
     min-height:92vh;
+    position: relative;
+}
+
+main::after{
+    
 }
 
 main div#social_section{
@@ -186,6 +191,7 @@ section.home_msg_big h1{
 }
 
 button#home_msg_button{
+    margin-top: 20px;
     background-color:#2177C2;
     color: white;
     text-align: center;
