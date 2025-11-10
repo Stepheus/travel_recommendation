@@ -231,13 +231,47 @@ button#home_msg_button:hover{
 
 article.about_us_pg{
     color: white;
-    font-size: large;
+    position: relative;
+    top: 14px;
+    padding:1px;  /*for margin collapse*/
+    overflow: hidden;
+}
+
+
+
+article.about_us_pg h1{
+    margin-top: 20px;
+    padding: 5px;
+    font-family: "Stack Sans Text", sans-serif
+}
+
+article.about_us_pg > section{
+    margin-bottom: 30px;
+    
 }
 
 article.about_us_pg p{
     font-size: small;
     font-family: "Oxygen", sans-serif;
+    width: 90%;
+    height: auto;
 }
+
+section.about_us_text{
+   position: relative ;
+   left:40px;
+}
+
+section.about_us_team{
+    position: relative;
+    left: 70px;
+}
+
+section.about_us_team > div{
+    float: left;
+    padding: 5px;
+}
+
 
 
 
