@@ -107,7 +107,7 @@ nav ul.search_section input[type=text]{
 main{
     background: url('./city.png') no-repeat;
     background-position: center;
-    background-size: auto;
+    background-size: cover;
     width: 100%;
     min-height:92vh;
     position: relative;
@@ -147,7 +147,7 @@ main div#line_div{
     height: 80%;
     border-left: solid 2px white;
     position: absolute;
-    left: 25px;
+    left: 40px;
     bottom: 10%;
 
 
@@ -164,7 +164,7 @@ main div#social_box{
 main ul.social_media_list{
 
     min-height: 48%;
-    margin-left:16px;
+    margin-left:30px;
     list-style-type: none;
     position: absolute;
     top: 20%;
@@ -185,7 +185,7 @@ main div#home_message_section{
 
 main article.home_msg_article{
     position: relative;
-    top:24%;
+    top:20%;
     color: white;
     overflow: hidden;
 }
@@ -196,12 +196,12 @@ section.home_msg_big, section.home_msg_small, section.home_msg_button_box{
 
 
 section.home_msg_big{
-    font-size: large;
+    font-size: 30px;
     margin-bottom: 13px;
 }
 
 section.home_msg_small{
-    width: 200px;
+    width: 400px;
     height: 120px;
     font-family: "Oxygen", sans-serif;
     font-size: small;
@@ -242,7 +242,8 @@ article.about_us_pg{
 article.about_us_pg h1{
     margin-top: 20px;
     padding: 5px;
-    font-family: "Stack Sans Text", sans-serif
+    font-family: "Stack Sans Text", sans-serif;
+    font-size: 60px;
 }
 
 article.about_us_pg > section{
@@ -251,7 +252,7 @@ article.about_us_pg > section{
 }
 
 article.about_us_pg p{
-    font-size: small;
+    font-size: 14px;
     font-family: "Oxygen", sans-serif;
     width: 90%;
     height: auto;
