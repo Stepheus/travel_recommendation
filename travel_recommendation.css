@@ -266,12 +266,35 @@ section.about_us_text{
 section.about_us_team{
     position: relative;
     left: 70px;
+    width: 90%;
+    min-height: 150px;
+    display: flex;
+    flex-direction: row;
 }
 
-section.about_us_team > div{
+h2.about_us_team_title{
+    font-size: 40px;
+    font-family:"Stack Sans Text", sans-serif;
+    width: 30%;
+    vertical-align: middle;
+    margin-top: auto;
+    margin-bottom: auto;
+    /* position: absolute;
+    top: 50%;
+    transform: translateY(-50%) ; */
+    /* display: flex;
+    align-items: center; */
     float: left;
-    padding: 5px;
 }
+
+h2.about_us_team_title{
+    width: 150px;
+}
+
+ul.about_us_team_each{
+    float: left;
+}
+
 
 
 
