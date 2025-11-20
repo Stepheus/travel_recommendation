@@ -2,6 +2,9 @@
     margin: 0px;
     padding:0px;
     box-sizing: border-box;
+    --big-font: "Stack Sans Text", sans-serif;
+    --oxygen: "Oxygen", sans-serif;
+    --button-color: #2177C2;
 }
 
 .hidden{
@@ -329,6 +332,77 @@ spam.position_label{
     left:50%;
     transform: translateX(-50%);
     bottom: 5px;
+}
+
+/* ------------------------Contact Page ---------------------------------------------------------------- */
+
+div.contact_page-right{
+    float: left;
+    min-height: 100vh;
+    width: 86vw;
+}
+
+div.contact-box{
+    position: absolute;
+    top: 30%;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+
+}
+
+div.contact_page-right h1{
+    font-size: 60px;
+    color: white;
+    font-family: var(--big-font);
+    transform: translateY(-70px);
+  
+}
+
+input,
+button,
+textarea{
+    font-family: var(--oxygen);
+    background-color: rgba(0, 0, 0, 0.3);
+    border: solid 1px rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+input[type="text"]{
+    height: 3ch;
+    padding: 5px;
+}
+
+textarea{
+    padding: 5px;
+}
+
+form.form_box{
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 50vw;
+    height: 50vh;
+    padding: 10px;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 2px;
+    align-items: start;
+}
+
+div.form_group{
+    color: rgba(255, 255, 255, 0.9);
+    display: grid;
+    font-family: var(--oxygen);
+    gap: 6px;
+}
+
+button.contact_submit{
+    height: 4ch;
+    text-align: center;
+    background: linear-gradient(90deg,rgba(34, 85, 130, 1) 2%, rgba(109, 209, 149, 1) 75%);
+    color: white;
 }
 
 
