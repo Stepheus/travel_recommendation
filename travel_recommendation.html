@@ -27,8 +27,8 @@
                 <li><input type="text" name="search" id="search_bar" placeholder="Enter a destination or keyword"></li>
                 <div class="search_group">
                     <i class="material-icons">search</i>
-                    <li><button id="search_button">Search</button></li>
-                    <li><button id="reset_button">Reset</button></li>
+                    <li><button type="search" onclick="searchCity()" id="search_button">Search</button></li>
+                    <li><button type="reset" onclick="resetEntry()" id="reset_button">Reset</button></li>
                 </div>
             </ul>
 
@@ -65,9 +65,10 @@
                     <button id="home_msg_button">Book Now</button>
                 </section>
             </article>
+            <div id="recommendation-result" class="recommendation-result"></div>
         </div>
 
     </main>
-    
+    <script src="travel_recommendation.js"></script>
 </body>
 </html>
