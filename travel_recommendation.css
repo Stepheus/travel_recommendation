@@ -234,11 +234,7 @@ button#home_msg_button:hover{
     cursor:pointer;
 }
 
-div.recommendation-result{
-    float: left;
-    width: 60%;
-    
-}
+
 
 /*--------------------------------------------------------About US -------------------------------------------------------------*/
 
@@ -414,6 +410,42 @@ button.contact_submit{
     text-align: center;
     background: linear-gradient(90deg,rgba(34, 85, 130, 1) 2%, rgba(109, 209, 149, 1) 75%);
     color: white;
+}
+.active_block{
+    background-color:  rgb(78, 126, 97);
+    width: 40%;
+    height: 40px;
+    border-radius: 10px;
+}
+
+div.recommendation-result{
+    float: left;
+    width: 60%;
+    display: grid;
+    margin-top: 40px;
+    row-gap: 10px;
+    justify-items: center;
+
+}
+.recommmendation_result{
+   
+    align-items: center;
+
+}
+
+.img_recommendation{
+    width: 40%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.text_recommendation{
+    font-family: var(--oxygen);
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+    padding: 10px;
 }
 
 
